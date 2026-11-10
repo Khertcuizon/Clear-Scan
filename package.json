@@ -1,0 +1,31 @@
+{
+  "name": "clearscan-ocr",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tesseract.js": "^5.1.1",
+    "docx": "^9.0.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  }
+}
